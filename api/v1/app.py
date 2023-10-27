@@ -1,8 +1,9 @@
 #!/usr/bin/python3
-from flask import Flask
+from flask import Flask, jsonify, json
 from models import storage
 from api.v1.views import app_views
 import os
+from werkzeug.exceptions import HTTPException
 app = Flask(__name__)
 app.register_blueprint(app_views)
 
@@ -11,6 +12,11 @@ app.register_blueprint(app_views)
 def close(exception):
     storage.close()
 
+
+@app.errorhandler(404)
+def handle_exception(e):
+    """Return JSON instead of HTML for HTTP errors."""
+    return jsonify({"error": "Not found"}), 404
 
 if __name__ == "__main__":
     host = os.environ.get('HBNB_API_HOST')
