@@ -1,18 +1,1 @@
-{
-    "State.6bf33fa2-1887-4667-a6b7-7751a7b217df": {
-        "id": "6bf33fa2-1887-4667-a6b7-7751a7b217df",
-        "created_at": "2023-09-21T11:59:36.669531",
-        "updated_at": "2023-09-21T11:59:36.669531",
-        "name": "My_First_Model",
-        "my_number": 89,
-        "__class__": "BaseModel"
-    },
-    "State.c679a53d-248b-4727-83e8-7b62625d9adf": {
-        "id": "c679a53d-248b-4727-83e8-7b62625d9adf",
-        "created_at": "2023-10-03T20:20:07.714209",
-        "updated_at": "2023-10-03T20:20:07.714209",
-        "name": "My_First_Model",
-        "my_number": 89,
-        "__class__": "BaseModel"
-    }
-}
+{"City.f072cc95-fa0b-4950-b353-5af21c4b5669": {"__class__": "City", "id": "f072cc95-fa0b-4950-b353-5af21c4b5669", "created_at": "2023-10-28T12:44:48.007458", "updated_at": "2023-10-28T12:44:48.007492"}, "State.6bf33fa2-1887-4667-a6b7-7751a7b217df": {"__class__": "BaseModel", "name": "My_First_Model", "my_number": 89, "id": "6bf33fa2-1887-4667-a6b7-7751a7b217df", "created_at": "2023-09-21T11:59:36.669531", "updated_at": "2023-09-21T11:59:36.669531"}, "State.c679a53d-248b-4727-83e8-7b62625d9adf": {"__class__": "BaseModel", "name": "My_First_Model", "my_number": 89, "id": "c679a53d-248b-4727-83e8-7b62625d9adf", "created_at": "2023-10-03T20:20:07.714209", "updated_at": "2023-10-03T20:20:07.714209"}, "State.8106cd47-34d3-401b-a0f2-c0399be094ea": {"__class__": "State", "id": "8106cd47-34d3-401b-a0f2-c0399be094ea", "created_at": "2023-10-28T12:44:38.996238", "updated_at": "2023-10-28T12:44:38.996262"}}
